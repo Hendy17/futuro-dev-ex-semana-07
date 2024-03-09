@@ -1,7 +1,5 @@
-// Importando as classes
 const { Produto, Pessoa, Cliente } = require('./index');
 
-// Exemplo de uso das classes
 const produto1 = new Produto('Caneta', 1.5, 50);
 produto1.Vender(20);
 produto1.Repor(10);
